@@ -1,0 +1,5 @@
+com/kotakdemo/core/servlets/SimpleServlet.class
+com/kotakdemo/core/schedulers/SimpleScheduledTask.class
+com/kotakdemo/core/filters/LoggingFilter.class
+com/kotakdemo/core/package-info.class
+com/kotakdemo/core/listeners/SimpleResourceListener.class

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kotakdemo.iml" filepath="$PROJECT_DIR$/kotakdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/kotakdemo.core.iml" filepath="$PROJECT_DIR$/core/kotakdemo.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.launcher/kotakdemo.it.launcher.iml" filepath="$PROJECT_DIR$/it.launcher/kotakdemo.it.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.tests/kotakdemo.it.tests.iml" filepath="$PROJECT_DIR$/it.tests/kotakdemo.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/kotakdemo.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/kotakdemo.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/kotakdemo.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/kotakdemo.ui.content.iml" />
+    </modules>
+  </component>
+</project>

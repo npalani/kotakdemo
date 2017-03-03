@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>kotakdemo - UI apps</comment>
+<entry key="createdBy">citytech-np</entry>
+<entry key="name">kotakdemo.ui.apps</entry>
+<entry key="created">2017-03-03T10:03:21.499+0530</entry>
+<entry key="groupId">com.kotakdemo</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">kotakdemo</entry>
+<entry key="description">UI apps package for kotakdemo</entry>
+<entry key="artifactId">kotakdemo.ui.apps</entry>
+<entry key="path">/etc/packages/kotakdemo/kotakdemo.ui.apps.zip</entry>
+</properties>
