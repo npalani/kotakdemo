@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1488799545927
+Build-Jdk: 1.8.0_66
+Built-By: citytech-np
+Bundle-Description: Bundles for Integration Tests for kotakdemo
+Bundle-ManifestVersion: 2
+Bundle-Name: kotakdemo - Integration Tests Bundles
+Bundle-SymbolicName: com.kotakdemo.it.tests
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Sling-Test-Regexp: .*Test
+Tool: Bnd-2.3.0.201405100607

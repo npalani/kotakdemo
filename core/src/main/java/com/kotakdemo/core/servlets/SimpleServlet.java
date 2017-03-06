@@ -35,6 +35,9 @@ import java.io.IOException;
 @SlingServlet(resourceTypes = "kotakdemo/structure/page")
 public class SimpleServlet extends SlingSafeMethodsServlet {
 
+
+
+
     @Override
     protected void doGet(final SlingHttpServletRequest req,
             final SlingHttpServletResponse resp) throws ServletException, IOException {

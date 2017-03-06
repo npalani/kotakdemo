@@ -1,23 +1,30 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1488515600317
+Bnd-LastModified: 1488799543416
 Build-Jdk: 1.8.0_66
 Built-By: citytech-np
+Bundle-ClassPath: .,json-20160810.jar
 Bundle-Description: Core bundle for kotakdemo
 Bundle-ManifestVersion: 2
 Bundle-Name: kotakdemo - Core
 Bundle-SymbolicName: com.kotakdemo.core
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: json
+Embedded-Artifacts: json-20160810.jar;g="org.json";a="json";v="20160810"
 Export-Package: com.kotakdemo.core.filters;uses:="javax.servlet";version
  ="1.0.0",com.kotakdemo.core.listeners;uses:="org.osgi.service.event";ve
  rsion="1.0.0",com.kotakdemo.core;version="1.0",com.kotakdemo.core.sched
  ulers;version="1.0.0",com.kotakdemo.core.servlets;uses:="javax.servlet,
  org.apache.sling.api,org.apache.sling.api.servlets";version="1.0.0"
-Import-Package: javax.servlet,org.apache.sling.api;version="[2.3,3)",org
- .apache.sling.api.request;version="[2.4,3)",org.apache.sling.api.resour
- ce;version="[2.5,3)",org.apache.sling.api.servlets;version="[2.1,3)",or
- g.apache.sling.commons.osgi;version="[2.2,3)",org.osgi.service.event;ve
- rsion="[1.2,2)",org.slf4j;version="[1.5,2)"
+Import-Package: javax.jcr;version="[2.0,3)",javax.jcr.lock;version="[2.0
+ ,3)",javax.jcr.nodetype;version="[2.0,3)",javax.jcr.version;version="[2
+ .0,3)",javax.servlet,javax.xml.parsers,javax.xml.stream,org.apache.comm
+ ons.io,org.apache.jackrabbit.commons;version="[2.4,3)",org.apache.sling
+ .api;version="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)",o
+ rg.apache.sling.api.resource;version="[2.5,3)",org.apache.sling.api.ser
+ vlets;version="[2.1,3)",org.apache.sling.commons.json;version="[2.0,3)"
+ ,org.apache.sling.commons.osgi;version="[2.2,3)",org.osgi.service.event
+ ;version="[1.2,2)",org.slf4j;version="[1.5,2)",org.w3c.dom,org.xml.sax
 Provide-Capability: osgi.service;effective:=active;objectClass="javax.se
  rvlet.Servlet";service.vendor=Adobe,osgi.service;effective:=active;obje
  ctClass="java.lang.Runnable";scheduler.expression="*/30 * * * * ?";sche
@@ -30,6 +37,7 @@ Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
 Service-Component: OSGI-INF/com.kotakdemo.core.servlets.SimpleServlet.xm
  l,OSGI-INF/com.kotakdemo.core.listeners.SimpleResourceListener.xml,OSGI
  -INF/com.kotakdemo.core.schedulers.SimpleScheduledTask.xml,OSGI-INF/com
- .kotakdemo.core.filters.LoggingFilter.xml
+ .kotakdemo.core.filters.LoggingFilter.xml,OSGI-INF/com.kotakdemo.core.s
+ ervlets.KotakDemoServlet.xml
 Sling-Model-Packages: com.kotakdemo.core
 Tool: Bnd-2.3.0.201405100607

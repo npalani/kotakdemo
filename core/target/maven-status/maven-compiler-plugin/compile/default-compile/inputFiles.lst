@@ -2,4 +2,5 @@
 /Users/citytech-np/kotakdemo/kotakdemo/core/src/main/java/com/kotakdemo/core/schedulers/SimpleScheduledTask.java
 /Users/citytech-np/kotakdemo/kotakdemo/core/src/main/java/com/kotakdemo/core/filters/LoggingFilter.java
 /Users/citytech-np/kotakdemo/kotakdemo/core/src/main/java/com/kotakdemo/core/package-info.java
+/Users/citytech-np/kotakdemo/kotakdemo/core/src/main/java/com/kotakdemo/core/servlets/KotakDemoServlet.java
 /Users/citytech-np/kotakdemo/kotakdemo/core/src/main/java/com/kotakdemo/core/servlets/SimpleServlet.java
